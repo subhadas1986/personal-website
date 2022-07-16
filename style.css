@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header Part Start */
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    background-color: tomato;
+}
+nav li {
+    list-style: none;
+    margin: 10px 20px;
+    /* transition: .7s; */
+    padding: 10px 0;
+}
+nav li:hover {
+   text-decoration: underline;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+/* Header Part End */
+
+/* Hero Part Start */
+.tomato-color{
+    color: tomato;
+}
+.left-part{
+    width: 40%;
+    margin-left: 10%;
+}
+.left-part h1{
+    font-size: 60px;
+}
+.left-part p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.right-part{
+    width: 40%;
+    margin-right: 10%;
+}
+section img{
+    width: 95%;
+}
+.hero-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(180deg, tomato, lightsalmon);
+    padding: 15px 40px;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+}
+/* Hero Part End */
+/* About Part Start */
+.about-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.right-part h2{
+    font-size: 45px;
+}
+.right-part p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+/* About Part ends */
+/* Latest Work Part start */
+.latest-work{
+    text-align: center;
+}
+.latest-work h2{
+    font-size: 45px;
+}
+.latest-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+.one-third{
+    box-shadow: 10px 10px 40px grey;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 2;
+}
+.one-third h3{
+    font-size: 20px;
+}
+#left{
+    margin-left: 5%;
+}
+#right{
+    margin-right: 5%;
+}
+.latest-bg{
+    background-color: #d6e0e6;
+    padding: 100px 0;
+    margin-bottom: 150px;
+}
+/* Latest Work Part end */
+
+.inquiry-part{
+    background-color: #5d49c1;
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    padding: 50px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+}
+.work{
+    font-size: 30px;
+    color: #fff;
+}
+.mail-area h4{
+    text-align: center;
+    color: rgb(107, 103, 103);
+    font-size: 22px;
+}
+.mail-area h3{
+    text-align: center;
+    color: #352a69;
+    font-size: 25px;
+}
+.icon-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-container img{
+    width: 50px;
+    margin: 20px;
+    margin-bottom: 40px;
+}
